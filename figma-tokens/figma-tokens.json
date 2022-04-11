@@ -739,5 +739,31 @@
         }
       }
     }
+  },
+  "component.button": {
+    "button": {
+      "lg": {
+        "height": {
+          "value": "{size.12}",
+          "type": "sizing"
+        },
+        "borderRadius": {
+          "value": "{borderRadius.lg}",
+          "type": "borderRadius"
+        }
+      },
+      "md": {
+        "height": {
+          "value": "{size.10}",
+          "type": "sizing"
+        }
+      },
+      "sm": {
+        "height": {
+          "value": "{size.8}",
+          "type": "sizing"
+        }
+      }
+    }
   }
 }
