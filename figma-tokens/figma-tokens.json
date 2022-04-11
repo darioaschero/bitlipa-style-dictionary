@@ -311,6 +311,36 @@
         "value": "2px",
         "type": "borderWidth"
       }
+    },
+    "borderRadius": {
+      "none": {
+        "value": "0px",
+        "type": "borderRadius"
+      },
+      "xs": {
+        "value": "2px",
+        "type": "borderRadius"
+      },
+      "sm": {
+        "value": "4px",
+        "type": "borderRadius"
+      },
+      "md": {
+        "value": "8px",
+        "type": "borderRadius"
+      },
+      "lg": {
+        "value": "12px",
+        "type": "borderRadius"
+      },
+      "xl": {
+        "value": "16px",
+        "type": "borderRadius"
+      },
+      "2xl": {
+        "value": "24px",
+        "type": "borderRadius"
+      }
     }
   },
   "core.typography.scaleA": {
