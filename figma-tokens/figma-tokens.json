@@ -806,12 +806,20 @@
         "height": {
           "value": "{size.element.md}",
           "type": "sizing"
+        },
+        "borderRadius": {
+          "value": "{borderRadius.md}",
+          "type": "borderRadius"
         }
       },
       "sm": {
         "height": {
           "value": "{size.element.sm}",
           "type": "sizing"
+        },
+        "borderRadius": {
+          "value": "{borderRadius.md}",
+          "type": "borderRadius"
         }
       },
       "label": {
