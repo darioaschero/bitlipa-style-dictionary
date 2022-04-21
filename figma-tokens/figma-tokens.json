@@ -650,6 +650,22 @@
           }
         }
       }
+    },
+    "size": {
+      "element": {
+        "sm": {
+          "value": "{size.8}",
+          "type": "sizing"
+        },
+        "md": {
+          "value": "{size.10}",
+          "type": "sizing"
+        },
+        "lg": {
+          "value": "{size.12}",
+          "type": "sizing"
+        }
+      }
     }
   },
   "semantic.dark": {
