@@ -313,32 +313,32 @@
       }
     },
     "borderRadius": {
-      "none": {
+      "0": {
         "value": "0px",
         "type": "borderRadius"
       },
-      "xs": {
-        "value": "2px",
-        "type": "borderRadius"
-      },
-      "sm": {
+      "1": {
         "value": "4px",
         "type": "borderRadius"
       },
-      "md": {
+      "2": {
         "value": "8px",
         "type": "borderRadius"
       },
-      "lg": {
+      "3": {
         "value": "12px",
         "type": "borderRadius"
       },
-      "xl": {
+      "4": {
         "value": "16px",
         "type": "borderRadius"
       },
-      "2xl": {
+      "6": {
         "value": "24px",
+        "type": "borderRadius"
+      },
+      "half": {
+        "value": "2px",
         "type": "borderRadius"
       }
     }
@@ -664,7 +664,41 @@
         "lg": {
           "value": "{size.12}",
           "type": "sizing"
+        },
+        "xl": {
+          "value": "{size.14}",
+          "type": "sizing"
         }
+      }
+    },
+    "borderRadius": {
+      "none": {
+        "value": "{borderRadius.0}",
+        "type": "borderRadius"
+      },
+      "xs": {
+        "value": "2px",
+        "type": "{borderRadius.half}"
+      },
+      "sm": {
+        "value": "4px",
+        "type": "{borderRadius.1}"
+      },
+      "md": {
+        "value": "8px",
+        "type": "{borderRadius.2}"
+      },
+      "lg": {
+        "value": "12px",
+        "type": "{borderRadius.3}"
+      },
+      "xl": {
+        "value": "16px",
+        "type": "{borderRadius4}"
+      },
+      "2xl": {
+        "value": "24px",
+        "type": "{borderRadius.6}"
       }
     }
   },
@@ -760,7 +794,7 @@
     "button": {
       "lg": {
         "height": {
-          "value": "{size.12}",
+          "value": "{size.element.xl}",
           "type": "sizing"
         },
         "borderRadius": {
@@ -770,13 +804,13 @@
       },
       "md": {
         "height": {
-          "value": "{size.10}",
+          "value": "{size.element.md}",
           "type": "sizing"
         }
       },
       "sm": {
         "height": {
-          "value": "{size.8}",
+          "value": "{size.element.sm}",
           "type": "sizing"
         }
       },
