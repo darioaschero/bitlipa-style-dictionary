@@ -604,7 +604,6 @@
       "lg": {
         "value": {
           "fontFamily": "{fontFamily.sans}",
-          "fontWeight": "{fontWeight.semibold}",
           "lineHeight": "{lineHeight.6}",
           "fontSize": "{fontSize.lg}",
           "letterSpacing": "{letterSpacing.sm}",
