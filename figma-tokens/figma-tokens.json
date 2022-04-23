@@ -381,7 +381,7 @@
   },
   "core.typography.scaleB": {
     "fontSize": {
-      "xxs": {
+      "2xs": {
         "value": "11px",
         "type": "fontSizes"
       },
@@ -409,7 +409,7 @@
         "value": "28px",
         "type": "fontSizes"
       },
-      "xxl": {
+      "2xl": {
         "value": "44px",
         "type": "fontSizes"
       }
@@ -629,7 +629,7 @@
         "value": {
           "fontFamily": "{fontFamily.sans}",
           "lineHeight": "{lineHeight.11}",
-          "fontSize": "{fontSize.xxl}",
+          "fontSize": "{fontSize.2xl}",
           "letterSpacing": "{letterSpacing.tight}",
           "paragraphSpacing": "0",
           "textDecoration": "none",
@@ -643,7 +643,7 @@
             "fontFamily": "{fontFamily.sans}",
             "fontWeight": "{fontWeight.semibold}",
             "lineHeight": "{lineHeight.4}",
-            "fontSize": "{fontSize.xxs}",
+            "fontSize": "{fontSize.2xs}",
             "letterSpacing": "{letterSpacing.wider}",
             "paragraphSpacing": "0",
             "textDecoration": "none",
