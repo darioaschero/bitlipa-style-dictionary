@@ -734,7 +734,7 @@
     "icon": {
       "xs": {
         "size": {
-          "value": "{size.4}",
+          "value": "{size.element.3xs}",
           "type": "sizing"
         },
         "stroke": {
@@ -742,9 +742,9 @@
           "type": "borderWidth"
         }
       },
-      "sm": {
+      "md": {
         "size": {
-          "value": "{size.5}",
+          "value": "{size.element.xs}",
           "type": "sizing"
         },
         "stroke": {
