@@ -516,6 +516,18 @@
     },
     "size": {
       "element": {
+        "3xs": {
+          "value": "{size.4}",
+          "type": "sizing"
+        },
+        "2xs": {
+          "value": "{size.5}",
+          "type": "sizing"
+        },
+        "xs": {
+          "value": "{size.6}",
+          "type": "sizing"
+        },
         "sm": {
           "value": "{size.8}",
           "type": "sizing"
