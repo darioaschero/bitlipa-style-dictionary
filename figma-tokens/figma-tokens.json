@@ -340,6 +340,10 @@
       "half": {
         "value": "2px",
         "type": "borderRadius"
+      },
+      "full": {
+        "value": "9999px",
+        "type": "borderRadius"
       }
     }
   },
@@ -574,6 +578,14 @@
       "2xl": {
         "value": "{borderRadius.6}",
         "type": "borderRadius"
+      }
+    },
+    "element": {
+      "borderRadius": {
+        "full": {
+          "value": "{borderRadius.full}",
+          "type": "borderRadius"
+        }
       }
     },
     "text": {
@@ -822,6 +834,12 @@
         "size": {
           "value": "{size.element.lg}",
           "type": "sizing"
+        }
+      },
+      "shape": {
+        "circle": {
+          "value": "{borderRadius.1}",
+          "type": "borderRadius"
         }
       }
     }
