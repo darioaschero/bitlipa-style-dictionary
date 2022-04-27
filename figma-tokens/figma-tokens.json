@@ -809,5 +809,21 @@
         }
       }
     }
+  },
+  "component.Avatar": {
+    "avatar": {
+      "sm": {
+        "size": {
+          "value": "{size.element.xs}",
+          "type": "sizing"
+        }
+      },
+      "md": {
+        "size": {
+          "value": "{size.element.lg}",
+          "type": "sizing"
+        }
+      }
+    }
   }
 }
