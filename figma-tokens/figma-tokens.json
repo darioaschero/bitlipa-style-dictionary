@@ -582,8 +582,12 @@
     },
     "element": {
       "borderRadius": {
-        "full": {
-          "value": "{borderRadius.full}",
+        "sm": {
+          "value": "{borderRadius.2}",
+          "type": "borderRadius"
+        },
+        "md": {
+          "value": "{borderRadius.3}",
           "type": "borderRadius"
         }
       }
@@ -838,7 +842,11 @@
       },
       "shape": {
         "circle": {
-          "value": "{borderRadius.1}",
+          "value": "{borderRadius.full}",
+          "type": "borderRadius"
+        },
+        "rounded": {
+          "value": "{element.borderRadius.md}",
           "type": "borderRadius"
         }
       }
