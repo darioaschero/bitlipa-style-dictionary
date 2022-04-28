@@ -828,7 +828,7 @@
   },
   "component.Avatar": {
     "avatar": {
-      "sm": {
+      "xs": {
         "size": {
           "value": "{size.element.xs}",
           "type": "sizing"
