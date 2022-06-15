@@ -347,42 +347,6 @@
       }
     }
   },
-  "core.typography.scaleB": {
-    "fontSize": {
-      "2xs": {
-        "value": "11px",
-        "type": "fontSizes"
-      },
-      "xs": {
-        "value": "12px",
-        "type": "fontSizes"
-      },
-      "sm": {
-        "value": "14px",
-        "type": "fontSizes"
-      },
-      "base": {
-        "value": "16px",
-        "type": "fontSizes"
-      },
-      "md": {
-        "value": "18px",
-        "type": "fontSizes"
-      },
-      "lg": {
-        "value": "20px",
-        "type": "fontSizes"
-      },
-      "xl": {
-        "value": "28px",
-        "type": "fontSizes"
-      },
-      "2xl": {
-        "value": "44px",
-        "type": "fontSizes"
-      }
-    }
-  },
   "semantic": {
     "color": {
       "fg": {
@@ -431,7 +395,7 @@
       },
       "line": {
         "ghost": {
-          "value": "{color.neutral.bg.surface}",
+          "value": "{color.bg.surface}",
           "type": "color"
         },
         "subtle": {
@@ -517,95 +481,6 @@
           "type": "borderRadius"
         }
       }
-    },
-    "text": {
-      "xs": {
-        "value": {
-          "fontFamily": "{fontFamily.sans}",
-          "lineHeight": "{lineHeight.5}",
-          "fontSize": "{fontSize.xs}",
-          "letterSpacing": "{letterSpacing.normal}",
-          "paragraphSpacing": "0",
-          "textDecoration": "none",
-          "textCase": "none"
-        },
-        "type": "typography"
-      },
-      "sm": {
-        "value": {
-          "fontFamily": "{fontFamily.sans}",
-          "lineHeight": "{lineHeight.5}",
-          "fontSize": "{fontSize.sm}",
-          "letterSpacing": "{letterSpacing.normal}",
-          "paragraphSpacing": "0",
-          "textDecoration": "none",
-          "textCase": "none"
-        },
-        "type": "typography"
-      },
-      "base": {
-        "value": {
-          "fontFamily": "{fontFamily.sans}",
-          "lineHeight": "{lineHeight.6}",
-          "fontSize": "{fontSize.base}",
-          "letterSpacing": "{letterSpacing.normal}",
-          "paragraphSpacing": "0",
-          "textDecoration": "none",
-          "textCase": "none"
-        },
-        "type": "typography"
-      },
-      "lg": {
-        "value": {
-          "fontFamily": "{fontFamily.sans}",
-          "lineHeight": "{lineHeight.6}",
-          "fontSize": "{fontSize.lg}",
-          "letterSpacing": "{letterSpacing.sm}",
-          "paragraphSpacing": "0",
-          "textDecoration": "none",
-          "textCase": "none"
-        },
-        "type": "typography"
-      },
-      "xl": {
-        "value": {
-          "fontFamily": "{fontFamily.sans}",
-          "lineHeight": "{lineHeight.7}",
-          "fontSize": "{fontSize.xl}",
-          "letterSpacing": "{letterSpacing.tight}",
-          "paragraphSpacing": "0",
-          "textDecoration": "none",
-          "textCase": "none"
-        },
-        "type": "typography"
-      },
-      "2xl": {
-        "value": {
-          "fontFamily": "{fontFamily.sans}",
-          "lineHeight": "{lineHeight.11}",
-          "fontSize": "{fontSize.2xl}",
-          "letterSpacing": "{letterSpacing.tight}",
-          "paragraphSpacing": "0",
-          "textDecoration": "none",
-          "textCase": "none"
-        },
-        "type": "typography"
-      },
-      "uppercase": {
-        "xxs": {
-          "value": {
-            "fontFamily": "{fontFamily.sans}",
-            "fontWeight": "{fontWeight.semibold}",
-            "lineHeight": "{lineHeight.4}",
-            "fontSize": "{fontSize.2xs}",
-            "letterSpacing": "{letterSpacing.wider}",
-            "paragraphSpacing": "0",
-            "textDecoration": "none",
-            "textCase": "{textTransform.uppercase}"
-          },
-          "type": "typography"
-        }
-      }
     }
   },
   "semantic.dark": {
@@ -656,7 +531,7 @@
       },
       "line": {
         "ghost": {
-          "value": "{color.neutral.bg.surface}",
+          "value": "{color.bg.surface}",
           "type": "color"
         },
         "subtle": {
